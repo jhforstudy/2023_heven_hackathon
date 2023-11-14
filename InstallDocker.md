@@ -25,9 +25,11 @@ docker run -p 6080:80 -e RESOLUTION=1920x1080 --shm-size=512m a2jinhee/2023_hack
 
 * 윈도우 검색창에서 "Docker Desktop"을 검색하여 실행
 
-![image](https://github.com/jhforstudy/2023_heven_hackathon/assets/48710703/460facd1-cb13-4ee6-8eeb-2079b6d5d1d9)
+![image](https://github.com/jhforstudy/2023_heven_hackathon/assets/48710703/d419543d-aeed-411a-9d99-982301eb84bd)
 
-해커톤 시뮬레이터가 제대로 다운로드 됐는지 확인 후, 우측의 재생 버튼 클릭, 이후 Run 클릭 (Optional Setting 설정 필요 없음)
+좌측의 "Containers" 버튼 클릭 후, 우측의 "Actions"에 네모 버튼으로 되어있는지 확인 (네모 버튼이어야 도커 컨테이너가 잘 실행중이라는 의미)
+
+만약 실행되고 있지 않으면, 과정 2를 다시 실행.
 
 #### 3. 가상 환경 접속
 
