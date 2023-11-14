@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- Teleop -->
+  <node pkg="racecar_simulator" type="teleop_keyboard.py" name="teleop" output="screen">
+  </node>
+
+</launch>

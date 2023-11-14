@@ -1,0 +1,7 @@
+<launch>
+
+  <!-- Brain -->
+  <node pkg="racecar_simulator" type="brain.py" name="brain" output="screen">
+  </node>
+
+</launch>

@@ -1,0 +1,7 @@
+image: hc_map_1.pgm
+resolution: 0.0303
+origin: [-0.3025, -25.9286, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+
