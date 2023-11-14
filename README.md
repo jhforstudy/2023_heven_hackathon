@@ -10,7 +10,7 @@
 ### 1. Docker를 이용한 개발 환경 구성 (Recommended)
 
 Windows 환경에서도 다음의 링크를 참고하여 편하게 개발할 수 있습니다.
-[Docker 환경 설치하기](https://github.com/jhforstudy/HEVEN_Hackathon/blob/master/InstallDocker.md)
+[Docker 환경 설치하기](https://github.com/jhforstudy/2023_heven_hackathon/blob/master/InstallDocker.md)
 
 ### 2. Ubuntu에 패키지 직접 설치
 
