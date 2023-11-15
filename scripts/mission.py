@@ -103,15 +103,15 @@ class Mainmission:
         # 굴곡 미션
         elif self.map_number == 2:
             self.goal_list = [
-                            Goal(mode=PARKING_SPOT, position=np.array((param.MAP_2_PARKING_LOT_X_1, param.MAP_2_PARKING_LOT_Y_1)), yaw=param.MAP_2_PARKING_LOT_YAW_1, number=1, tolerance=[2.80, 1.00]),
-                            Goal(mode=PARKING_SPOT, position=np.array((param.MAP_2_PARKING_LOT_X_2, param.MAP_2_PARKING_LOT_Y_2)), yaw=param.MAP_2_PARKING_LOT_YAW_2, number=2, tolerance=[2.80, 1.00]),
-                            Goal(mode=PARKING_SPOT, position=np.array((param.MAP_2_PARKING_LOT_X_3, param.MAP_2_PARKING_LOT_Y_3)), yaw=param.MAP_2_PARKING_LOT_YAW_3, number=3, tolerance=[2.80, 1.00]),
+                            Goal(mode=PARKING_SPOT, position=np.array((param.MAP_2_PARKING_LOT_X_1, param.MAP_2_PARKING_LOT_Y_1)), yaw=param.MAP_2_PARKING_LOT_YAW_1, number=1, tolerance=[3.00, 2.00]),
+                            Goal(mode=PARKING_SPOT, position=np.array((param.MAP_2_PARKING_LOT_X_2, param.MAP_2_PARKING_LOT_Y_2)), yaw=param.MAP_2_PARKING_LOT_YAW_2, number=2, tolerance=[3.00, 2.00]),
+                            Goal(mode=PARKING_SPOT, position=np.array((param.MAP_2_PARKING_LOT_X_3, param.MAP_2_PARKING_LOT_Y_3)), yaw=param.MAP_2_PARKING_LOT_YAW_3, number=3, tolerance=[3.00, 2.00]),
                             Goal(mode=STOP_LINE, position=np.array((param.MAP_2_STOP_LINE_X_1, param.MAP_2_STOP_LINE_Y_1)), yaw=param.MAP_2_STOP_LINE_YAW_1, number=1, traffic=TRAFFIC_STRAIGHT),
                             Goal(mode=STOP_LINE, position=np.array((param.MAP_2_STOP_LINE_X_2, param.MAP_2_STOP_LINE_Y_2)), yaw=param.MAP_2_STOP_LINE_YAW_2, number=2, traffic=TRAFFIC_LEFT),
                             Goal(mode=STOP_LINE, position=np.array((param.MAP_2_STOP_LINE_X_3, param.MAP_2_STOP_LINE_Y_3)), yaw=param.MAP_2_STOP_LINE_YAW_3, number=3, traffic=TRAFFIC_RIGHT),
                             Goal(mode=STOP_LINE, position=np.array((param.MAP_2_STOP_LINE_X_4, param.MAP_2_STOP_LINE_Y_4)), yaw=param.MAP_2_STOP_LINE_YAW_4, number=4, traffic=TRAFFIC_STRAIGHT),
                             Goal(mode=STOP_LINE, position=np.array((param.MAP_2_STOP_LINE_X_5, param.MAP_2_STOP_LINE_Y_5)), yaw=param.MAP_2_STOP_LINE_YAW_5, number=5, traffic=TRAFFIC_STRAIGHT),
-                            Goal(mode=DELIV_PICKUP, position=np.array((param.MAP_2_DELIV_PICKUP_X, param.MAP_2_DELIV_PICKUP_Y)), yaw=param.MAP_2_DELIV_PICKUP_YAW, number=param.MAP_2_PICKUP_DROPOFF_AREA, tolerance=[3.00, 1.00]),
+                            Goal(mode=DELIV_PICKUP, position=np.array((param.MAP_2_DELIV_PICKUP_X, param.MAP_2_DELIV_PICKUP_Y)), yaw=param.MAP_2_DELIV_PICKUP_YAW, number=param.MAP_2_PICKUP_DROPOFF_AREA, tolerance=[3.00, 2.00]),
                             Goal(mode=DELIV_DROPOFF, position=np.array((param.MAP_2_DELIV_DROPOFF_X_1, param.MAP_2_DELIV_DROPOFF_Y_1)), yaw=param.MAP_2_DELIV_DROPOFF_YAW_1, number=1),
                             Goal(mode=DELIV_DROPOFF, position=np.array((param.MAP_2_DELIV_DROPOFF_X_2, param.MAP_2_DELIV_DROPOFF_Y_2)), yaw=param.MAP_2_DELIV_DROPOFF_YAW_2, number=2),
                             Goal(mode=DELIV_DROPOFF, position=np.array((param.MAP_2_DELIV_DROPOFF_X_3, param.MAP_2_DELIV_DROPOFF_Y_3)), yaw=param.MAP_2_DELIV_DROPOFF_YAW_3, number=3)

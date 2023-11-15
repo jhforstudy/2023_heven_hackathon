@@ -204,90 +204,12 @@ class Param():
         # Random area of delivery dropoff
         self.MAP_3_PICKUP_DROPOFF_AREA = MAP_3_DROPOFF_AREA
 
-        # self.PARKING_LOT_X_4 = 13.226
-        # self.PARKING_LOT_Y_4 = -20.683
-        # self.PARKING_LOT_YAW_4 = -90
-
-        # Center point of parking lot (Second parking mission)
-        # self.PARKING_LOT_X_5 = 13.226
-        # self.PARKING_LOT_Y_5 = -48.55
-        # self.PARKING_LOT_YAW_5 = 90 + self.PARKING_LOT_TILT_DEGREE
-
-        # self.PARKING_LOT_X_6 = 12.026
-        # self.PARKING_LOT_Y_6 = -48.55
-        # self.PARKING_LOT_YAW_6 = 90 + self.PARKING_LOT_TILT_DEGREE
-
-        # self.PARKING_LOT_X_7 = 1.647
-        # self.PARKING_LOT_Y_7 = -48.55
-        # self.PARKING_LOT_YAW_7 = 90 + self.PARKING_LOT_TILT_DEGREE
-
-        # self.PARKING_LOT_X_8 = 0.497
-        # self.PARKING_LOT_Y_8 = -48.55
-        # self.PARKING_LOT_YAW_8 = 90 + self.PARKING_LOT_TILT_DEGREE
-
-        # self.MAP_3_STOP_LINE_X_1 = 8.278
-        # self.MAP_3_STOP_LINE_Y_1 = -12.154
-        # self.MAP_3_STOP_LINE_YAW_1 = -90
-        # self.MAP_3_STOP_LINE_X_2 = 26.236
-        # self.MAP_3_STOP_LINE_Y_2 = -51.142
-        # self.MAP_3_STOP_LINE_YAW_2 = -90
-
-        # if self.map_3_parking_first_dir == 1:
-        #     self.parking_x_1 = self.PARKING_LOT_X_1
-        #     self.parking_y_1 = self.PARKING_LOT_Y_1
-        #     self.parking_yaw_1 = self.PARKING_LOT_YAW_1
-        # elif self.map_3_parking_first_dir == 2:
-        #     self.parking_x_1 = self.PARKING_LOT_X_2
-        #     self.parking_y_1 = self.PARKING_LOT_Y_2
-        #     self.parking_yaw_1 = self.PARKING_LOT_YAW_2
-        # elif self.map_3_parking_first_dir == 3:
-        #     self.parking_x_1 = self.PARKING_LOT_X_3
-        #     self.parking_y_1 = self.PARKING_LOT_Y_3
-        #     self.parking_yaw_1 = self.PARKING_LOT_YAW_3
-        # elif self.map_3_parking_first_dir == 4:
-        #     self.parking_x_1 = self.PARKING_LOT_X_4
-        #     self.parking_y_1 = self.PARKING_LOT_Y_4
-        #     self.parking_yaw_1 = self.PARKING_LOT_YAW_4
-
-        # if self.map_3_parking_second_dir == 5:
-        #     self.parking_x_2 = self.PARKING_LOT_X_5
-        #     self.parking_y_2 = self.PARKING_LOT_Y_5
-        #     self.parking_yaw_2 = self.PARKING_LOT_YAW_5
-        # elif self.map_3_parking_second_dir == 6:
-        #     self.parking_x_2 = self.PARKING_LOT_X_6
-        #     self.parking_y_2 = self.PARKING_LOT_Y_6
-        #     self.parking_yaw_2 = self.PARKING_LOT_YAW_6
-        # elif self.map_3_parking_second_dir == 7:
-        #     self.parking_x_2 = self.PARKING_LOT_X_7
-        #     self.parking_y_2 = self.PARKING_LOT_Y_7
-        #     self.parking_yaw_2 = self.PARKING_LOT_YAW_7
-        # elif self.map_3_parking_second_dir == 8:
-        #     self.parking_x_2 = self.PARKING_LOT_X_8
-        #     self.parking_y_2 = self.PARKING_LOT_Y_8
-        #     self.parking_yaw_2 = self.PARKING_LOT_YAW_8
-
         # Spawn lists (x, y, yaw - degree)
         self.MAP_1_SPAWN_POINT = [(0,0,0), (7.4446,0,0), (10.924,0,0), (11.7528,-11.8417,-90), (11.715,-20.157,-90), (25.2072,-21.5755,0)]
-        self.MAP_2_SPAWN_POINT = [(0,0,0), (7.5465,0,0), (11.19,0,0), (21.54,0,0), (35.020,3.675, -90), (25.931,1.044,180), (15.237,1.133,180), (0.1,1.210345,180), (-8.3047,1.2131,180)]
+        self.MAP_2_SPAWN_POINT = [(0,0,0), (10.2264,0,0), (17.6167,0,0), (32.5436,0,0), (52.7464,5.37543,-90), (39.05728,1.5946,180), (22.94111,1.63984,180), (1.58777,1.78412,180), (-10.4700,1.73260,180)]
         self.MAP_3_SPAWN_POINT = [(0,0,0), (10.380,-10.700,-87.0894), (10.6453,-19.5551,-87.0895), (10.7380,-25.9737,-88.1929), (-6.865,-27.5207,-178.2), (-15.9061,-45.2137,-94.5), (-15.9783,-47.7374,-94.5)]
         self.MAP_4_SPAWN_POINT = [(0,0,0)]
         self.MAP_5_SPAWN_POINT = [(0,0,0)]
-        # if self.map_2_traffic_dir == "LEFT":
-        #     self.MAP_2_SPAWN_POINT = [(0,0,0),(-4,-18.45,90),(-7.08,-15.835,180)]
-        # elif self.map_2_traffic_dir == "RIGHT":
-        #     self.MAP_2_SPAWN_POINT = [(0,0,0),(-4,-18.45,90),(-0.669,-15.835,0)]
-        # self.MAP_3_SPAWN_POINT.append(((8.288, -13.565, -90)))
-        # Spawn points (First parking mission)
-        # if self.map_3_parking_first_dir == 1 or self.map_3_parking_first_dir == 2:
-        #     self.MAP_3_SPAWN_POINT.append((1.947,-15.683,0))
-        # elif self.map_3_parking_first_dir == 3 or self.map_3_parking_first_dir == 4:
-        #     self.MAP_3_SPAWN_POINT.append((13.837,-15.683,0))
-        # self.MAP_3_SPAWN_POINT.append(((25.280, -53.591, 180)))
-        # Spawn points (Second parking mission)
-        # if self.map_3_parking_second_dir == 5 or self.map_3_parking_second_dir == 6:
-        #     self.MAP_3_SPAWN_POINT.append((11.526,-53.659,180))
-        # elif self.map_3_parking_second_dir == 7 or self.map_3_parking_second_dir == 8:
-        #     self.MAP_3_SPAWN_POINT.append((2.47,-53.659,0))
 
         # Goal Marker
         self.m = Marker()
