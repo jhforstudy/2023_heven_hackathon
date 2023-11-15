@@ -38,7 +38,7 @@ http://wiki.ros.org/Installation/Ubuntu
 * 레포지토리 복제
 
     ```
-    git clone https://github.com/s-duuu/2023_heven_hackathon.git
+    git clone https://github.com/jhforstudy/2023_heven_hackathon.git
     ```
 
 * 패키지 빌드
