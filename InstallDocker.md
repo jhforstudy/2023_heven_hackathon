@@ -8,7 +8,11 @@
 
 해당 파일 다운로드 후, 실행하여 설치 (체크박스 모두 클릭)
 
-#### 2. Docker Desktop 실행하여 해커톤 시뮬레이터 다운로드
+설치 완료 후, Docker Desktop 실행하여 다음 화면이 뜨는지 확인
+
+![image](https://github.com/jhforstudy/2023_heven_hackathon/assets/48710703/1d66a671-ab71-4413-b932-09b47b55db95)
+
+#### 2. 해커톤 시뮬레이터 다운로드
 
 * 윈도우 검색창에서 "Windows Powershell"을 검색하여 실행
 * 터미널 창에 다음을 입력
