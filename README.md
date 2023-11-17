@@ -59,9 +59,14 @@ http://wiki.ros.org/Installation/Ubuntu
 
 ## 실행
 
-* 시뮬레이터 실행
+* 시뮬레이터 실행 (map_number : 1, 2, 3, 5)
     ```
     roslaunch racecar_simulator simulate.launch map_number:=1
+    ```
+
+* (승차감) 시뮬레이터 실행 (map_number : 4)
+    ```
+    roslaunch racecar_simulator simulate_jerk.launch map_number:=4
     ```
     
 * 자율주행 알고리즘 (brain) 실행
