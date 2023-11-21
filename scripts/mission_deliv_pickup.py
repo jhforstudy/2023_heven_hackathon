@@ -82,7 +82,7 @@ class DelivPickupMission(Mission):
 
         # Delivery
         # We need to check : x, y (close to the area?), yaw (align direction?)
-        if abs(position_diff[0]) <= goal.tolerance[0] and abs(position_diff[1]) <= goal.tolerance[1] and abs(yaw_diff) <= 10:
+        if abs(position_diff[0]) <= goal.tolerance[0] and abs(position_diff[1]) <= goal.tolerance[1]:
             # PICKUP (Practice Map)
             pickup_vector = np.array([[goal.position[0]], [goal.position[1]]])
             position_vector = np.array([[car.position[0]], [car.position[1]]])
